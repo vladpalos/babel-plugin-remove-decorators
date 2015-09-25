@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-remove-decorators",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Babel plugin to remove all decorators from the code.",
   "author": "Vlad Palos <vladpalos@gmail.com>",
   "license": "MIT",
