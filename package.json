@@ -1,0 +1,31 @@
+{
+  "name": "babel-plugin-remove-decorators",
+  "version": "0.1.0",
+  "description": "Babel plugin to remove all decorators from the code.",
+  "author": "Vlad Palos <vladpalos@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "peerDependencies": {
+    "babel-core": ">=5.8.0"
+  },
+  "main": "lib/index.js",
+  "devDependencies": {
+    "babel": "^5.8.0"
+  },
+  "scripts": {
+    "build": "babel-plugin build",
+    "push": "babel-plugin publish",
+    "test": "babel-plugin test"
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "ignore",
+    "remove",
+    "compile",
+    "decorator"
+  ]
+}
