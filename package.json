@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/vladpalos/babel-plugin-remove-decorators"
   },
   "peerDependencies": {
     "babel-core": ">=5.8.0"
