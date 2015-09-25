@@ -13,12 +13,11 @@
   },
   "main": "lib/index.js",
   "devDependencies": {
-    "babel": "^5.8.0"
+    "babel": "^5.8.0",
+    "mocha": "^2.3.3"
   },
   "scripts": {
-    "build": "babel-plugin build",
-    "push": "babel-plugin publish",
-    "test": "babel-plugin test"
+    "test": "mocha --compilers js:babel/register"
   },
   "keywords": [
     "babel",
