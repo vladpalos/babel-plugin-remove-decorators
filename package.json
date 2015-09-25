@@ -8,8 +8,8 @@
     "type": "git",
     "url": "https://github.com/vladpalos/babel-plugin-remove-decorators"
   },
-  "peerDependencies": {
-    "babel-core": ">=5.8.0"
+  "dependencies": {
+    "babel-core": ">=5.6.0"
   },
   "main": "lib/index.js",
   "devDependencies": {
@@ -17,6 +17,8 @@
     "mocha": "^2.3.3"
   },
   "scripts": {
+    "build": "babel -d ./lib ./src",
+    "prepublish": "npm run build",
     "test": "mocha --compilers js:babel/register"
   },
   "keywords": [
@@ -26,5 +28,16 @@
     "remove",
     "compile",
     "decorator"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/vladpalos/babel-plugin-remove-decorators/issues"
+  },
+  "homepage": "https://github.com/vladpalos/babel-plugin-remove-decorators",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25"
+  }
 }
