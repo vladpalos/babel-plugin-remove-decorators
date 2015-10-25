@@ -44,7 +44,7 @@ See Babel's documentation on [plugins](https://babeljs.io/docs/advanced/plugins/
 ```json
 {
   "optional": ["es7.decorators"],
-  "plugins": ["babel-plugin-remove-decorator:before"]
+  "plugins": ["decorators:before"]
 }
 
 ```
