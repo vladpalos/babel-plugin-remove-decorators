@@ -1,6 +1,6 @@
 # babel-plugin-remove-decorators
 A babel plugin that **removes all decorators** from the code.
-This is useful for testing purposes. It allows you to unit test the code that has decorators attached to it.
+This is useful for testing purposes. It allows you to unit test the code that has decorators attached to it, by removing the decorator line before the transpilation. 
 
 ## Example
 Turns this:
